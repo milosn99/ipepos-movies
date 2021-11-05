@@ -93,6 +93,14 @@ input[type="submit"]:hover {
   min-width: 170px;
 }
 
+.wrapper {
+  width: 100vw;
+  height: 97vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 @media screen and (min-width: 694px) and (max-width: 915px) {
   .movie {
     max-width: 33%;
